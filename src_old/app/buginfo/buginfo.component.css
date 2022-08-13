@@ -1,0 +1,20 @@
+.inputs3{
+    /* height: 20px;
+    flex: 0 0 200px; */
+    
+    margin-top: 40px;
+    }
+.required:after{
+content:" *";
+color: red;
+}
+#my_input{
+    font-size:15px;  
+    margin-top: 15px;
+}
+.inputs{
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+  
+  }

@@ -1,0 +1,14 @@
+html { background-color:  grey; } 
+h1 {text-align: center;}
+.my-container{
+    width: 80vw;
+    height: 18vh;
+ background-color: #f6f6f6;
+} 
+#inputs{
+    /* height: 20px;
+    flex: 0 0 200px; */
+    margin-left: 10px;
+  
+  }
+/*h2 {text-align: center;}*/

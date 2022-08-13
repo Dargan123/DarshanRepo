@@ -1,0 +1,43 @@
+<!-- <div class="inputs"> -->
+  <div style="margin-left: 10px;">
+  <label  id='my_input' for="fname" class="required">Date and time you first noticed this bug.</label><br>
+<form class="row row-cols-sm-auto">
+    <div class="col-12">
+      <div class="input-group">
+        <input class="form-control" placeholder="yyyy-mm-dd"
+               name="dp"  ngbDatepicker #d="ngbDatepicker">
+        <button class="btn btn-outline-secondary calendar" (click)="d.toggle()" type="button"></button>
+      </div>
+    </div>
+  </form>
+ 
+   <br>
+
+
+  <ngb-timepicker  [seconds]="seconds"></ngb-timepicker>
+</div>
+  <br>  
+  <label style="margin-left: 10px;" for="fname">Impact</label><br>
+  <select style="margin-left: 10px;" id="float-input" type="text"id="fname" name="fname" name="impact" id="impact">  
+    <option value="Low">Low</option>
+    <option value="Medium">Medium</option>
+    <option value="High">High</option>
+  
+  </select>
+<br>
+   <label  style="margin-left: 10px;" for="fname" class="required">Detailed explanation of the Bug</label><br>
+   <textarea style="margin-left: 10px;" rows="5" cols="104" pInputTextarea autoResize="autoResize"></textarea>
+  <!-- <h4>mat-select</h4>
+<mat-form-field appearance="fill">
+  <mat-label>Choose an option</mat-label>
+  <mat-select [disabled]="disableSelect.value">
+    <mat-option value="option1">Option 1</mat-option>
+    <mat-option value="option2" disabled>Option 2 (disabled)</mat-option>
+    <mat-option value="option3">Option 3</mat-option>
+  </mat-select>
+</mat-form-field> -->
+<!-- </div> -->
+
+  
+  
+  
